@@ -1,0 +1,140 @@
+{
+  "972d0c55b5bf6333980548f0fe889f76" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "14d34ea71e736b13",
+      "status" : "broken",
+      "statusDetails" : "java.lang.NullPointerException",
+      "time" : {
+        "start" : 1639837317897,
+        "stop" : 1639837361391,
+        "duration" : 43494
+      }
+    } ]
+  },
+  "ddb8e9a4f1ed30d2c3b4fd9c551e8c6b" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "ae99a051819776ee",
+      "status" : "skipped",
+      "statusDetails" : "Method LoginTestWithTestng.a1Void()[pri:1, instance:test.authentication.LoginTestWithTestng@79efed2d] depends on not successfully finished methods",
+      "time" : {
+        "start" : 1639837386863,
+        "stop" : 1639837386863,
+        "duration" : 0
+      }
+    } ]
+  },
+  "b5a6d5d52f652f6593500fd6d0ddab83" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "63453c7be8578580",
+      "status" : "failed",
+      "statusDetails" : "[ERR] Login msg title incorrenct expected [true] but found [false]",
+      "time" : {
+        "start" : 1639838529055,
+        "stop" : 1639838552635,
+        "duration" : 23580
+      }
+    } ]
+  },
+  "f84e6c9adf51d46e88256cdc56a61b44" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "1fab2b60fd250e8",
+      "status" : "failed",
+      "statusDetails" : "expected [true] but found [false]",
+      "time" : {
+        "start" : 1639837386850,
+        "stop" : 1639837386855,
+        "duration" : 5
+      }
+    } ]
+  },
+  "5a04639767a88f2aa8839b4a550a1e7f" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "2c2ebc4897dc4449",
+      "status" : "passed",
+      "time" : {
+        "start" : 1639837386792,
+        "stop" : 1639837386795,
+        "duration" : 3
+      }
+    } ]
+  },
+  "73227fabb1bf626c76d3c4f3d21ba6b0" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "7ab3e96d0bd21ff",
+      "status" : "broken",
+      "statusDetails" : "Connection refused: connect\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'CTC-LAPT-053', ip: '192.168.1.4', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'\nDriver info: driver.version: RemoteWebDriver",
+      "time" : {
+        "start" : 1639838615163,
+        "stop" : 1639838615163,
+        "duration" : 0
+      }
+    } ]
+  },
+  "156366d86ecfe456694d00bf6c54908" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "6e565277cbbc4ffc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1639838565427,
+        "stop" : 1639838612758,
+        "duration" : 47331
+      }
+    } ]
+  }
+}
