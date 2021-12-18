@@ -28,8 +28,6 @@ public class LoginTest extends BaseTest {
             // Bottom Nav Comp
             BottomNavComponent bottomNavComponent = loginPage.bottomNavComp();
             LoginDialogComponent loginDialogComponent = loginPage.loginDialogComp();
-            bottomNavComponent.loginLabelElem().click();
-            bottomNavComponent.formLabelElem().click();
             bottomNavComponent.clickOnLoginLabel();
             // Fill login form
             loginPage.inputUsername(loginCreds.getUsername());
@@ -39,10 +37,10 @@ public class LoginTest extends BaseTest {
             System.out.println(loginMsg);
             // Verification
             String actualLoginMsg = loginPage.loginDialogComp().msgTitle();
-            boolean isTitleCorrect = actualLoginMsg.equals("success");
+            boolean isTitleCorrect = actualLoginMsg.equals("Success");
             String customErrMsg = "[ERR] Login msg title incorrenct";
             Assert.assertTrue(isTitleCorrect,customErrMsg);
-            Assert.assertEquals(actualLoginMsg,"Successs",customErrMsg + "| assertEquals");
+            Assert.assertEquals(actualLoginMsg,"Success",customErrMsg + "| assertEquals");
             System.out.println(actualLoginMsg);
 
         //Relative xPath

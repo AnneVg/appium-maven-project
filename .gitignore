@@ -80,3 +80,7 @@ nb-configuration.xml
 *.png
 ##############################
 allure-results/
+##############################
+allure-report/
+##############################
+screenshot/
