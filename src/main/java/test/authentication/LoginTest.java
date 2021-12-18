@@ -1,6 +1,7 @@
 package test.authentication;
 
 import driver.DriverFactory;
+import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.MobileElement;
 import io.appium.java_client.android.AndroidDriver;
 import io.qameta.allure.Description;
@@ -20,8 +21,8 @@ public class LoginTest extends BaseTest {
     public  void loginWithCorrectCreds(LoginCreds loginCreds){
         DriverFactory.startAppiumServer();
 
-        try {
-            AndroidDriver<MobileElement> androidDriver = DriverFactory.getAndroidDriver();
+            //Init driver
+            AppiumDriver<MobileElement> androidDriver = getDriver();
             // Login Page
             LoginPage loginPage = new LoginPage(androidDriver);
             // Bottom Nav Comp
@@ -44,11 +45,6 @@ public class LoginTest extends BaseTest {
             Assert.assertEquals(actualLoginMsg,"Successs",customErrMsg + "| assertEquals");
             System.out.println(actualLoginMsg);
 
-        } catch (Exception ignored) {
-
-        } finally {
-            DriverFactory.stopAppiumServer();
-        }
         //Relative xPath
     }
     @DataProvider

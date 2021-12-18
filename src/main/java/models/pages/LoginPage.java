@@ -24,7 +24,7 @@ public class LoginPage {
         appiumDriver.findElement(usernameSel).sendKeys(username);
         return this;
     }
-    @Step("Input username as {password}")
+    @Step("Input password as {password}")
     public LoginPage inputPassword(String password) {
         appiumDriver.findElement(passwordSel).sendKeys(password);
         return this;
